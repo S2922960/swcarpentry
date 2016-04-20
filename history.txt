@@ -1,0 +1,89 @@
+    1  cp C:\\
+    2  cd C:
+    3  cd Users/
+    4  cd s2575868/
+    5  cp .bash_profile ~
+    6  exit
+    7  nano
+    8  git init
+    9  ls -a
+   10  git status
+   11  mkdir planets
+   12  cd planets
+   13  git init
+   14  ls -a
+   15  git status
+   16  nano bad_poetry.txt
+   17  ls -a
+   18  git add bad_poetry.txt
+   19  git status
+   20  git commit -m "new poetry by me"
+   21  git status
+   22  git add bad_poetry.txt
+   23  git commit -m "This is adding more to the poetry"
+   24  nano bad_poetry.txt
+   25  git status
+   26  git commit -a
+   27  git status
+   28  git log
+   29  git diff HEAD~1 bad_poetry.txt
+   30  git diff HEAD~2 bad_poetry.txt
+   31  git status
+   32  git log
+   33  git add "another change to my poetry file" -m
+   34  git add "another change to my poetry file" -m bad_poetry.txt
+   35  git add bad_poetry.txt
+   36  git commit -m "i have made this change"
+   37  git status
+   38  nano bad_poetry.txt
+   39  git status
+   40  git commit -m "new edits on date"
+   41  git status
+   42  git log
+   43  git diff HEAD~1 
+   44  git rm bad_poetry.txt
+   45  --cached
+   46  git --cahched bad_poetry.txt
+   47  git status
+   48  git remote add origin https://github.com/Kinoyagirl/swcarpentry_bad_poetry.git
+   49  git remote -v
+   50  git push origin master
+   51  git pull origin master
+   52  ls
+   53  git clone https://github.com/S2922960/swcarpentry.git
+   54  git commit -m "hello there" bad_poetry.txt
+   55  git push https://github.com/S2922960/swcarpentry.git
+   56  nano nerdy_poetry.txt
+   57  git commit -m "this is my change - from Ameeta"
+   58  git add hello from Ameeta.txt
+   59  nano nerdy_poetry.txt
+   60  git add nerdy_poetry.txt
+   61  git commit -m " new change from Ameeta"
+   62  git push origin master
+   63  git remote -v
+   64  ls
+   65  cd swcarpentry/
+   66  ls
+   67  git pull origin master
+   68  nano nerdy_poetry.txt
+   69  git add nerdy_poetry.txt
+   70  git commit -m "new edits by Ameeta"
+   71  git push origin master
+   72  git add "new file.txt"
+   73  nano "new file.txt"
+   74  git add "new file.txt"
+   75  git commit -m "new file added by Ameeta"
+   76  git remote -v
+   77  git pull origin https://github.com/S2922960/swcarpentry.git
+   78  git pull https://github.com/S2922960/swcarpentry.git
+   79  git push origin master
+   80  nano nerdy_poetry.txt
+   81  git add "nerdy_poetry.txt"
+   82  git commit -m "another edit by Ameeta"
+   83  git push origin master
+   84  nano hello.txt
+   85  git add "hello.txt"
+   86  git commit -m "introducing self - by Ameeta" 
+   87  git push origin master
+   88  history
+   89  history > history.txt
